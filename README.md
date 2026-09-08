@@ -6,7 +6,8 @@
 
 วิธีอัปเดต: แก้ไข `handover/PRIVACY-POLICY-DRAFT.md` ก่อน แล้ว regenerate ไฟล์ HTML ในโฟลเดอร์นี้ให้ตรงกับ draft ใหม่ (คงโครงสร้าง id/anchor เดิมถ้าเป็นไปได้เพื่อไม่ให้ลิงก์ที่แชร์ไว้เสีย) จากนั้น copy ไฟล์ในโฟลเดอร์นี้ทั้งหมดไปยัง repo `keptsatang-site` แล้ว commit + push เพื่อให้ GitHub Pages deploy อัตโนมัติ
 
-หมายเหตุ: `{{DEVELOPER_NAME}}` ใน `privacy.html` แทนด้วยชื่อผู้ควบคุมข้อมูลจริงแล้ว (`Worawut Sriworaphot`) และ `AppLinks.PRIVACY_POLICY_URL` ในโค้ดแอปตั้งเป็น URL จริงแล้วเช่นกัน
+หมายเหตุ: ไม่มี placeholder เหลือแล้ว — ชื่อผู้ควบคุมข้อมูล (Worawut Sriworaphot) ฝังตรง ๆ ทั้งใน draft และ privacy.html ถ้าเปลี่ยนต้องแก้ทั้งสองไฟล์
 
 repo ปลายทาง: `https://github.com/tuwarow/keptsatang-site`
 URL ที่เผยแพร่: `https://tuwarow.github.io/keptsatang-site/`
+Deployed: 8 Sep 2026 — https://tuwarow.github.io/keptsatang-site/
