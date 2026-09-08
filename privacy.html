@@ -1,0 +1,361 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>นโยบายความเป็นส่วนตัว — เก็บสตางค์ (Kept Satang)</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top-nav">
+  <div class="top-nav-inner">
+    <a class="site-title" href="index.html">เก็บสตางค์ · Kept Satang</a>
+    <nav>
+      <a href="privacy.html">นโยบายความเป็นส่วนตัว</a>
+      <a href="terms.html">ข้อกำหนดการใช้งาน</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <h1 id="top">นโยบายความเป็นส่วนตัว — เก็บสตางค์ (Kept Satang)</h1>
+
+  <p class="jump"><a href="#en-top">English version below ↓</a></p>
+
+  <nav class="toc" aria-label="สารบัญ">
+    <p class="toc-label">สารบัญ / Contents</p>
+    <p class="section-lang-label">ภาษาไทย</p>
+    <ol>
+      <li><a href="#th-1">1. บทนำ</a></li>
+      <li><a href="#th-2">2. หลักการสำคัญ: ข้อมูลของคุณอยู่บนเครื่องของคุณ</a></li>
+      <li><a href="#th-3">3. การสำรองข้อมูล</a></li>
+      <li><a href="#th-4">4. สิทธิ์การเข้าถึงการแจ้งเตือน (Notification Access)</a></li>
+      <li><a href="#th-5">5. ฟีเจอร์ที่คุณเป็นผู้ริเริ่ม (Optional, User-Initiated)</a></li>
+      <li><a href="#th-6">6. ความปลอดภัย</a></li>
+      <li><a href="#th-7">7. โฆษณาและการวิเคราะห์ข้อมูล</a></li>
+      <li><a href="#th-8">8. รายงานข้อขัดข้อง (Crashlytics)</a></li>
+      <li><a href="#th-9">9. การแจ้งปัญหา / ส่งความเห็น</a></li>
+      <li><a href="#th-10">10. การเปลี่ยนแปลงที่วางแผนไว้ (Planned Changes)</a></li>
+      <li><a href="#th-11">11. เด็กและเยาวชน</a></li>
+      <li><a href="#th-12">12. สิทธิ์ของคุณตาม พ.ร.บ. คุ้มครองข้อมูลส่วนบุคคล (PDPA)</a></li>
+      <li><a href="#th-13">13. ระยะเวลาการเก็บข้อมูล</a></li>
+      <li><a href="#th-14">14. การเปลี่ยนแปลงนโยบายนี้</a></li>
+      <li><a href="#th-15">15. ติดต่อเรา</a></li>
+    </ol>
+    <p class="section-lang-label">English</p>
+    <ol>
+      <li><a href="#en-1">1. Introduction</a></li>
+      <li><a href="#en-2">2. Core Principle: Your Data Stays On Your Device</a></li>
+      <li><a href="#en-3">3. Backups</a></li>
+      <li><a href="#en-4">4. Notification Access</a></li>
+      <li><a href="#en-5">5. Optional, User-Initiated Features</a></li>
+      <li><a href="#en-6">6. Security</a></li>
+      <li><a href="#en-7">7. Advertising And Analytics</a></li>
+      <li><a href="#en-8">8. Crash Reporting (Crashlytics)</a></li>
+      <li><a href="#en-9">9. Reporting Issues / Feedback</a></li>
+      <li><a href="#en-10">10. Planned Changes</a></li>
+      <li><a href="#en-11">11. Children</a></li>
+      <li><a href="#en-12">12. Your Rights Under the Thai Personal Data Protection Act (PDPA)</a></li>
+      <li><a href="#en-13">13. Data Retention</a></li>
+      <li><a href="#en-14">14. Changes To This Policy</a></li>
+      <li><a href="#en-15">15. Contact Us</a></li>
+    </ol>
+  </nav>
+
+  <section lang="th">
+    <p class="section-lang-label">ภาษาไทย</p>
+
+    <h2 id="th-1">1. บทนำ</h2>
+    <p>แอปพลิเคชัน <strong>เก็บสตางค์ (Kept Satang)</strong> (แพ็กเกจ <code>com.worawut.keptsatang</code>) พัฒนาโดย Worawut Sriworaphot ("เรา") นโยบายความเป็นส่วนตัวฉบับนี้อธิบายว่าแอปเก็บ ใช้ และจัดการข้อมูลของผู้ใช้อย่างไร</p>
+    <p>หากมีคำถามเกี่ยวกับนโยบายนี้ ติดต่อเราได้ที่: <a href="mailto:keptsatang.app@gmail.com">keptsatang.app@gmail.com</a></p>
+    <p>วันที่มีผลบังคับใช้: 8 กันยายน 2569</p>
+
+    <h2 id="th-2">2. หลักการสำคัญ: ข้อมูลของคุณอยู่บนเครื่องของคุณ</h2>
+    <p>ปัจจุบัน แอปเก็บสตางค์ <strong>ไม่มีระบบบัญชีผู้ใช้ ไม่มีการล็อกอิน และไม่มีเซิร์ฟเวอร์ของเราที่รับส่งข้อมูล</strong> ข้อมูลทั้งหมดที่คุณบันทึกในแอป — รายรับ รายจ่าย หมวดหมู่ งบประมาณ รูปถ่ายใบเสร็จ และการตั้งค่าต่างๆ — จะถูกเก็บไว้ <strong>ในเครื่องของคุณเท่านั้น</strong> ผ่านกลไกดังนี้:</p>
+    <ul>
+      <li>ฐานข้อมูล Room (SQLite) ที่เก็บในพื้นที่ภายในของแอป (internal app storage) ซึ่งได้รับการป้องกันโดยกลไก sandbox ของ Android ทำให้แอปอื่นเข้าถึงไม่ได้</li>
+      <li>การตั้งค่า (Preferences) ผ่าน DataStore ในพื้นที่ภายในของแอปเช่นกัน</li>
+      <li>รูปถ่ายใบเสร็จที่เก็บในพื้นที่ภายในของแอป</li>
+      <li>ไฟล์สำรองข้อมูลอัตโนมัติรายสัปดาห์ (ดูหัวข้อ 3.1) ที่เก็บในโฟลเดอร์เฉพาะของแอปบนพื้นที่จัดเก็บภายนอก (app-specific external storage) ซึ่งเป็นคนละพื้นที่กับพื้นที่ภายในของแอปข้างต้น — โฟลเดอร์นี้มองเห็นได้ผ่านโปรแกรมจัดการไฟล์หรือเมื่อเชื่อมต่อ USB กับคอมพิวเตอร์ แต่แอปทั่วไปอื่นเข้าถึงไม่ได้โดยไม่ได้รับสิทธิ์ และจะถูกลบไปพร้อมกันเมื่อถอนการติดตั้งแอป</li>
+    </ul>
+    <p>เราไม่ส่งข้อมูลการเงินของคุณออกไปยังเซิร์ฟเวอร์ใดๆ ผ่านอินเทอร์เน็ต <strong>ตั้งแต่ 0.21.0 แอปมีสิทธิ์ INTERNET เพื่อส่งรายงานข้อขัดข้อง (crash report) ไปยัง Firebase Crashlytics ของ Google เท่านั้น — ไม่มีการส่งข้อมูลการเงิน ข้อความแจ้งเตือน หรือข้อมูลส่วนบุคคลอื่น และไม่มี SDK วิเคราะห์พฤติกรรม (Analytics)</strong> (ดูรายละเอียดในหัวข้อ 8) ก่อนหน้าเวอร์ชัน 0.21.0 แอปไม่มีสิทธิ์ INTERNET เลย</p>
+
+    <h2 id="th-3">3. การสำรองข้อมูล</h2>
+    <h3 id="th-3-1">3.1 การสำรองข้อมูลอัตโนมัติรายสัปดาห์ของแอป (Weekly Local Backup)</h3>
+    <p>แอปนี้สร้างไฟล์สำรองข้อมูล (zip) ซึ่งประกอบด้วยข้อมูลบัญชี (ledger) ในรูปแบบ JSON และรูปถ่ายใบเสร็จ <strong>โดยอัตโนมัติสัปดาห์ละครั้งโดยไม่ต้องให้คุณสั่งการ</strong> ไฟล์เหล่านี้ถูกเก็บไว้ในโฟลเดอร์เฉพาะของแอปบนพื้นที่จัดเก็บภายนอก (external storage) ที่ตำแหน่ง <code>Android/data/com.worawut.keptsatang/files/backups</code> ซึ่งเป็นคนละพื้นที่กับพื้นที่ภายในของแอป (internal storage ที่เก็บฐานข้อมูลหลักและการตั้งค่าตามหัวข้อ 2) — โฟลเดอร์นี้มองเห็นได้ผ่านโปรแกรมจัดการไฟล์หรือเมื่อเชื่อมต่ออุปกรณ์กับคอมพิวเตอร์ผ่าน USB แต่แอปทั่วไปอื่นเข้าถึงไม่ได้โดยไม่ได้รับสิทธิ์ และจะถูกลบไปพร้อมกันเมื่อถอนการติดตั้งแอป</p>
+    <p>ระบบเก็บไฟล์สำรองอัตโนมัติไว้เพียง <strong>8 ไฟล์ล่าสุด</strong> เท่านั้น (ไฟล์เก่ากว่านั้นถูกลบทิ้งอัตโนมัติ) และเมื่อคุณกู้คืนข้อมูล (restore) ระบบจะสร้างไฟล์สำรองก่อนกู้คืน (<code>pre-restore-*.zip</code>) ไว้สูงสุด <strong>3 ไฟล์</strong> เพื่อป้องกันข้อมูลสูญหายระหว่างการกู้คืน</p>
+    <p>เนื่องจากไฟล์สำรองเหล่านี้อยู่ในพื้นที่จัดเก็บภายนอกของอุปกรณ์ <strong>ก่อนเวอร์ชัน 0.20.0</strong> โฟลเดอร์นี้จึงอยู่ <strong>ภายใต้ขอบเขตของ Android Auto Backup ด้วยเช่นกัน</strong> (ดูหัวข้อ 3.2) หากคุณเปิดใช้งาน Auto Backup ไว้ <strong>ตั้งแต่เวอร์ชัน 0.20.0 เป็นต้นไป แอปกำหนดให้ยกเว้นโฟลเดอร์สำรองข้อมูลรายสัปดาห์นี้ทั้งโฟลเดอร์ (<code>Android/data/com.worawut.keptsatang/files/backups</code>) ออกจาก Android Auto Backup โดยเฉพาะ</strong> เพื่อไม่ให้ขนาดข้อมูลรวมเกินโควตาที่ Auto Backup กำหนด ทั้งนี้ฐานข้อมูลหลักและรูปถ่ายใบเสร็จ (internal storage ตามหัวข้อ 2) ยังคงถูกสำรองผ่าน Auto Backup ตามปกติ</p>
+
+    <h3 id="th-3-2">3.2 การสำรองข้อมูลอัตโนมัติของ Android (Auto Backup)</h3>
+    <p>แอปนี้เปิดใช้งานฟีเจอร์ Auto Backup ของ Android (<code>allowBackup=true</code>) ซึ่งเป็นกลไกมาตรฐานของระบบปฏิบัติการ Android ที่ Google เป็นผู้ควบคุม — <strong>ไม่ใช่เซิร์ฟเวอร์ของเรา</strong> เมื่อเปิดใช้งาน ระบบ Android จะสำรองข้อมูลแอปบางส่วน (ฐานข้อมูลหลักและรูปถ่ายใบเสร็จใน internal storage เสมอ — <strong>ก่อนเวอร์ชัน 0.20.0</strong> ยังรวมไฟล์สำรองรายสัปดาห์ตามหัวข้อ 3.1 ด้วย เนื่องจากอยู่ในพื้นที่จัดเก็บภายนอก แต่ <strong>ตั้งแต่เวอร์ชัน 0.20.0</strong> โฟลเดอร์สำรองรายสัปดาห์ถูกยกเว้นออกจาก Auto Backup เพื่อไม่ให้เกินโควตาขนาดข้อมูล) ไปยัง Google Drive ส่วนตัวของบัญชี Google ที่ผูกกับอุปกรณ์ของคุณโดยอัตโนมัติ โดยข้อมูลจะถูกเข้ารหัสตามมาตรฐานของ Google</p>
+    <p><strong>สถานะก่อนเวอร์ชัน 0.20.0 (ข้อมูลย้อนหลัง):</strong> ข้อมูล Auto Backup ของ Android <strong>รวมถึงค่าแฮชรหัส PIN (เก็บใน DataStore <code>kept_security</code>) และไฟล์ร่างแจ้งเตือนธนาคาร (bank-alert drafts) ด้วย</strong> เนื่องจากยังไม่มีการตั้งค่ายกเว้นเป็นการเฉพาะ</p>
+    <p><strong>ตั้งแต่เวอร์ชัน 0.20.0 เป็นต้นไป:</strong> แอปจะกำหนดให้ยกเว้นข้อมูล PIN (ค่าแฮชรหัส PIN ใน DataStore <code>kept_security</code>) และไฟล์ร่างแจ้งเตือนธนาคารออกจาก Auto Backup ของ Android โดยเฉพาะ <strong>อย่างไรก็ตาม ไฟล์สำรองที่ Auto Backup เคยสร้างไว้ก่อนเวอร์ชัน 0.20.0 อาจยังคงมีข้อมูล PIN และไฟล์ร่างแจ้งเตือนหลงเหลืออยู่ จนกว่าจะถูกเขียนทับด้วยไฟล์สำรองใหม่ที่สร้างหลังอัปเดตเป็น 0.20.0 หรือจนกว่าคุณจะลบไฟล์สำรองของแอปนี้ออกจากการตั้งค่าบัญชี Google ของคุณเอง</strong></p>
+    <p>แอปของเราเองไม่เคยส่งข้อความแจ้งเตือนหรือข้อมูลการเงินของคุณออกไปยังเซิร์ฟเวอร์ใดๆ ด้วยตัวเอง สำเนาข้อมูลของคุณจะออกจากเครื่องได้ก็ต่อเมื่อเกิดจากช่องทางใดช่องทางหนึ่งต่อไปนี้เท่านั้น: (ก) ระบบ Android Auto Backup ที่สร้างสำเนาไปยัง Google Drive ส่วนตัวของคุณ ซึ่งอยู่ภายใต้การควบคุมของคุณผ่านการตั้งค่า Google บนอุปกรณ์ และ (ตั้งแต่เวอร์ชัน 0.20.0) ไม่รวมข้อมูล PIN หรือไฟล์ร่างแจ้งเตือนธนาคารอีกต่อไป (ข) การโอนย้ายข้อมูลจากเครื่องเก่าไปเครื่องใหม่ (device-to-device transfer) ของ Android เมื่อคุณตั้งค่าโทรศัพท์เครื่องใหม่ (ค) การส่งออกข้อมูล (export) ที่คุณสั่งการเองผ่านระบบเลือกไฟล์ของ Android (Storage Access Framework) ไปยังตำแหน่งที่คุณเลือก (ดูหัวข้อ 5) หรือ (ง) <strong>ตั้งแต่เวอร์ชัน 0.21.0</strong> รายงานข้อขัดข้อง (crash report) ที่แอปส่งไปยัง Firebase Crashlytics โดยอัตโนมัติเมื่อเกิดข้อขัดข้อง ซึ่งไม่รวมข้อความแจ้งเตือนหรือข้อมูลการเงินของคุณ (ดูหัวข้อ 8) แอปของเราเองไม่เคยส่งข้อมูลออกด้วยตัวเองผ่านช่องทางอื่นใดนอกจากที่ระบุไว้ข้างต้น</p>
+    <p>คุณสามารถปิดการสำรองข้อมูลนี้ได้จากการตั้งค่า Google Account บนอุปกรณ์ของคุณ (Settings &gt; Google &gt; Backup) หรือปิดการสำรองข้อมูลเฉพาะแอปนี้ได้ตามที่ Android เวอร์ชันของคุณรองรับ</p>
+
+    <h2 id="th-4">4. สิทธิ์การเข้าถึงการแจ้งเตือน (Notification Access)</h2>
+    <p>การอ่านแจ้งเตือนธนาคารเป็นฟีเจอร์หลักของแอป (core feature) ที่ผู้ใช้เลือกเปิดเอง ช่วยให้คุณบันทึกรายการเคลื่อนไหวทางการเงินโดยอัตโนมัติจากการแจ้งเตือน (notification) ของแอปธนาคารหรือแอปการเงิน โดยทำงานดังนี้:</p>
+    <ul>
+      <li>เมื่อคุณให้สิทธิ์ Notification Access ของ Android แก่แอปนี้ (สิทธิ์นี้เป็นสิทธิ์ระดับระบบปฏิบัติการ ไม่ใช่สิทธิ์ที่จำกัดเฉพาะรายแอป) Android จะส่งการแจ้งเตือน <strong>จากทุกแอปบนเครื่อง</strong> มาให้แอปของเราตรวจสอบ ไม่ใช่เฉพาะแอปธนาคารเท่านั้น</li>
+      <li>แอปประมวลผลการแจ้งเตือนทั้งหมดที่ได้รับ <strong>ในเครื่องของคุณเท่านั้น</strong> และ <strong>เก็บไว้เฉพาะการแจ้งเตือนที่ตัวแยกวิเคราะห์ (parser) อ่านออกว่าเป็นรายการเคลื่อนไหวทางการเงิน</strong> (มีจำนวนเงินและทิศทางเงินเข้า/เงินออกชัดเจน) เท่านั้น การแจ้งเตือนอื่นที่ไม่เข้าเงื่อนไขนี้จะถูกทิ้งไปทันทีโดยไม่บันทึก</li>
+      <li>ตามค่าเริ่มต้น แอปจะ <strong>อ่านและพยายามแยกวิเคราะห์แจ้งเตือนจากทุกแอปที่ยังไม่ได้ระบุ</strong> (auto-detect) คุณสามารถ:
+        <ul>
+          <li>เพิ่มแอปเข้า <strong>"แอปที่ไม่อ่าน" (block list)</strong> เพื่อไม่ให้แอปนี้ประมวลผลแจ้งเตือนจากแอปนั้นอีก</li>
+          <li>เพิ่มแอปเข้า <strong>"แอปที่อนุญาต" (allow list)</strong> ซึ่งจะถูกเพิ่มให้อัตโนมัติเมื่อคุณยืนยันบันทึกร่างรายการจากแอปนั้นเป็นครั้งแรกด้วย</li>
+          <li>เปิด <strong>"โหมดเข้มงวด" (strict mode)</strong> เพื่อให้แอปอ่านและประมวลผลเฉพาะแจ้งเตือนจากแอปใน "แอปที่อนุญาต" เท่านั้น และปฏิเสธแอปอื่นทั้งหมดโดยอัตโนมัติ</li>
+        </ul>
+      </li>
+      <li>ข้อมูลที่แยกวิเคราะห์ได้จะถูกเก็บเป็น <strong>ร่างรายการ (draft)</strong> ในเครื่องของคุณ เพื่อรอให้คุณยืนยันหรือแก้ไข (ดูรายละเอียดในหัวข้อ 4.1)</li>
+      <li>คุณสามารถเพิกถอนสิทธิ์ Notification Access นี้ได้ทุกเมื่อผ่านการตั้งค่า Android &gt; แอป &gt; สิทธิ์การเข้าถึงพิเศษ &gt; การเข้าถึงการแจ้งเตือน ซึ่งจะหยุดไม่ให้แอปได้รับการแจ้งเตือนใดๆ อีกทันที</li>
+      <li>แอปของเราเองไม่เคยส่งข้อความแจ้งเตือนออกจากเครื่องของคุณ (ดูหัวข้อ 3.2 เรื่อง Android Auto Backup สำหรับข้อยกเว้นเดียวที่อาจเกี่ยวข้อง)</li>
+    </ul>
+
+    <h3 id="th-4-1">4.1 ร่างรายการ (Draft) คืออะไร และเก็บไว้นานแค่ไหน</h3>
+    <ul>
+      <li>ร่างรายการแต่ละรายการเก็บ <strong>หัวข้อ (title) และเนื้อความ (text) ของการแจ้งเตือนตามที่ได้รับจริง</strong> พร้อมกับจำนวนเงิน ทิศทาง และวันที่ที่แยกวิเคราะห์ได้ ไว้ในไฟล์ในเครื่อง (<code>bank_inbox.json</code>)</li>
+      <li>ร่างรายการจะถูกเก็บไว้ <strong>จนกว่าคุณจะยืนยัน</strong> (จากนั้นร่างนั้นจะถูกลบออก) <strong>หรือจนกว่าคุณจะเลือกละทิ้ง (discard)</strong></li>
+      <li>ร่างที่คุณ <strong>ละทิ้ง (discard)</strong> จะถูกย้ายไปยัง <strong>ถังขยะร่างรายการ (draft trash)</strong> ซึ่งจะถูกล้างอัตโนมัติเมื่อขึ้นเดือนใหม่ — ถังขยะนี้เก็บไว้สูงสุด <strong>200 รายการ</strong> เช่นเดียวกับ inbox หากเกินจำนวนนี้ ร่างที่เก่าที่สุดในถังขยะจะถูกตัดออกโดยอัตโนมัติ</li>
+      <li>ร่างที่ <strong>ยังไม่ได้ยืนยันหรือถูกละทิ้ง จะยังคงอยู่ใน inbox จนกว่าคุณจะดำเนินการ หรือจนกว่าจะครบ 30 วัน</strong> — <strong>ตั้งแต่เวอร์ชัน 0.20.0</strong> ร่างที่ไม่ยืนยันภายใน 30 วันจะย้ายไปถังขยะร่างอัตโนมัติ (กู้คืนได้จนกว่าถังขยะจะถูกล้างเมื่อขึ้นเดือนใหม่) นอกจากนี้ inbox ยังเก็บไว้สูงสุด <strong>200 รายการล่าสุด</strong> เท่านั้น หากเกินจำนวนนี้ ร่างที่เก่าที่สุดจะถูกตัดออกจาก inbox โดยอัตโนมัติเมื่อมีแจ้งเตือนใหม่เข้ามา</li>
+    </ul>
+
+    <h2 id="th-5">5. ฟีเจอร์ที่คุณเป็นผู้ริเริ่ม (Optional, User-Initiated)</h2>
+    <ul>
+      <li><strong>ส่งออกข้อมูล (Export):</strong> คุณสามารถส่งออกข้อมูลเป็นไฟล์ zip สำรอง, CSV หรือ PDF ไปยังตำแหน่งที่คุณเลือกเอง ผ่านระบบเลือกไฟล์ของ Android (Storage Access Framework)</li>
+      <li><strong>นำเข้าข้อมูล (Import):</strong> คุณสามารถนำเข้าข้อมูลจากไฟล์ CSV ได้</li>
+      <li><strong>รูปถ่ายใบเสร็จ:</strong> คุณสามารถถ่ายภาพหรือเลือกภาพจากคลังภาพเพื่อแนบกับรายการได้ ภาพเหล่านี้เก็บไว้ในเครื่องเท่านั้น</li>
+      <li><strong>การแจ้งเตือนเตือนความจำในเครื่อง (Local Reminders):</strong> หากคุณเปิดใช้งาน แอปจะส่งการแจ้งเตือนที่สร้างขึ้นในเครื่องของคุณเอง เช่น เตือนวันครบกำหนดชำระบัตรเครดิต หรือแจ้งเตือนเมื่อใช้จ่ายเกินงบประมาณที่ตั้งไว้ ซึ่งต้องได้รับสิทธิ์ POST_NOTIFICATIONS จากคุณก่อน การแจ้งเตือนเหล่านี้สร้างและประมวลผลในเครื่องทั้งหมด ไม่มีข้อมูลส่งออกไปนอกเครื่อง</li>
+    </ul>
+    <p>การส่งออกข้อมูล การนำเข้าข้อมูล และการแนบรูปถ่ายใบเสร็จข้างต้นเกิดขึ้นเมื่อคุณสั่งการเท่านั้น เราไม่ดำเนินการเหล่านี้โดยอัตโนมัติหรือส่งข้อมูลไปที่อื่นโดยไม่ได้รับคำสั่งจากคุณ (ดูหัวข้อ 3.1 สำหรับการสำรองข้อมูลอัตโนมัติรายสัปดาห์ ซึ่งแอปทำให้โดยไม่ต้องสั่งการ แต่ก็ยังคงอยู่ในเครื่องของคุณเท่านั้น)</p>
+
+    <h2 id="th-6">6. ความปลอดภัย</h2>
+    <ul>
+      <li>ฐานข้อมูล SQLite และไฟล์การตั้งค่า (preferences) ของแอป <strong>ไม่ได้เข้ารหัสในระดับไฟล์ (not encrypted at the file level)</strong> การป้องกันข้อมูลอาศัยกลไก sandbox ของแอป Android (แอปอื่นเข้าถึงไฟล์เหล่านี้โดยตรงไม่ได้) ร่วมกับการเข้ารหัสอุปกรณ์ (device encryption) และหน้าจอล็อกของอุปกรณ์คุณเอง</li>
+      <li>รหัส PIN ของคุณถูกเก็บในรูปแบบ <strong>ค่าแฮช (salted SHA-256 hash)</strong> ไม่ใช่ข้อความธรรมดา เราไม่สามารถย้อนกลับไปทราบรหัส PIN จริงของคุณได้</li>
+      <li>รองรับการปลดล็อกด้วยไบโอเมตริก (ลายนิ้วมือ/ใบหน้า) ผ่านระบบ Android BiometricPrompt มาตรฐาน ซึ่งประมวลผลโดยระบบปฏิบัติการ ไม่ใช่แอปของเรา</li>
+      <li><strong>วิดเจ็ตหน้าจอโฮม (Home-screen widget):</strong> หากคุณเพิ่มวิดเจ็ตของแอปไว้ที่หน้าจอโฮม วิดเจ็ตจะแสดงยอดรวมประจำเดือนและยอดคงเหลือ <strong>โดยไม่ต้องปลดล็อกด้วย PIN</strong> — ผู้ที่เห็นหน้าจอโฮมของคุณ (รวมถึงกรณีหน้าจอล็อกอยู่ หากตั้งค่าให้วิดเจ็ตแสดงบนหน้าจอล็อก) จะสามารถเห็นข้อมูลสรุปนี้ได้</li>
+    </ul>
+
+    <h2 id="th-7">7. โฆษณาและการวิเคราะห์ข้อมูล</h2>
+    <p>แอปนี้ <strong>ไม่มีโฆษณาและไม่มีระบบวิเคราะห์พฤติกรรมผู้ใช้ (analytics)</strong> ตั้งแต่เวอร์ชัน 0.21.0 แอปมี SDK ของบุคคลที่สามหนึ่งตัว คือ <strong>Firebase Crashlytics</strong> ของ Google ซึ่งใช้เพื่อรายงานข้อขัดข้อง (crash reporting) เท่านั้น ไม่ใช่เพื่อโฆษณาหรือวิเคราะห์พฤติกรรมผู้ใช้ — ดูรายละเอียดในหัวข้อ 8</p>
+
+    <h2 id="th-8">8. รายงานข้อขัดข้อง (Crashlytics)</h2>
+    <p>ตั้งแต่เวอร์ชัน 0.21.0 แอปใช้บริการ <strong>Firebase Crashlytics</strong> ของ Google เพื่อช่วยให้เราทราบและแก้ไขข้อขัดข้อง (crash) ของแอปได้เร็วขึ้น</p>
+    <ul>
+      <li><strong>เมื่อแอปเกิดข้อขัดข้อง</strong> ข้อมูลทางเทคนิคต่อไปนี้จะถูกส่งไปยัง Firebase Crashlytics โดยอัตโนมัติ: stack trace ของข้อผิดพลาด, เวอร์ชันแอปและ versionCode, ยี่ห้อและรุ่นอุปกรณ์, เวอร์ชัน Android, ภาษา/locale ของอุปกรณ์, Firebase installation ID แบบไม่ระบุตัวตน (anonymous) และเวลาที่เกิดข้อขัดข้อง</li>
+      <li><strong>ข้อมูลที่ไม่ส่ง:</strong> ไม่มีข้อมูลการเงิน (ยอดเงิน รายการบัญชี งบประมาณ) และไม่มีข้อความแจ้งเตือน (notification text) รวมอยู่ในรายงานข้อขัดข้องเลย</li>
+      <li><strong>เปิดใช้งานเป็นค่าเริ่มต้น (on by default)</strong> คุณสามารถปิดได้ที่ ตั้งค่า &gt; ความเป็นส่วนตัว &gt; <strong>"ส่งรายงานข้อขัดข้องอัตโนมัติ"</strong> การปิดมีผลทันที และแอปจะไม่ส่งรายงานใดๆ ก่อนที่แอปจะอ่านค่าการตั้งค่านี้ตอนเริ่มทำงาน (startup)</li>
+      <li>ข้อมูลที่ส่งไปจะถูกประมวลผลโดย <strong>Google Firebase</strong> ภายใต้ข้อกำหนดการให้บริการของ Google</li>
+      <li><strong>ระยะเวลาการเก็บข้อมูล:</strong> ระยะเวลาการเก็บข้อมูลเป็นไปตามนโยบายของ Google Firebase Crashlytics ซึ่งปัจจุบันเก็บข้อมูลรายงานข้อขัดข้องแบบรายเหตุการณ์ไว้ประมาณ 90 วัน (ข้อมูลสถิติระดับภาพรวมอาจเก็บนานกว่านั้น) และอาจเปลี่ยนแปลงได้ตามที่ Google กำหนด</li>
+      <li>ฟีเจอร์นี้ <strong>ไม่เกี่ยวข้องกับโฆษณา (no ads)</strong> และไม่ใช่ระบบวิเคราะห์พฤติกรรมผู้ใช้ (ไม่ใช่ Firebase Analytics)</li>
+    </ul>
+
+    <h2 id="th-9">9. การแจ้งปัญหา / ส่งความเห็น</h2>
+    <p>แอปมีหน้าจอสำหรับแจ้งปัญหาหรือส่งความเห็น ซึ่งทำงานโดย <strong>เปิดแอปอีเมลของคุณเองพร้อมร่างข้อความที่กรอกไว้ล่วงหน้า</strong> ส่งถึง <code>keptsatang.app@gmail.com</code> — คุณเป็นผู้เห็นร่างอีเมลทั้งหมดและกดส่งด้วยตัวเองเท่านั้น <strong>แอปไม่ส่งอะไรออกไปโดยอัตโนมัติ</strong></p>
+    <p>เนื้อหาของอีเมลร่างประกอบด้วย:</p>
+    <ul>
+      <li>ข้อความที่คุณพิมพ์เอง</li>
+      <li>ข้อมูลอุปกรณ์พื้นฐาน: เวอร์ชันแอป, เวอร์ชัน Android, รุ่นอุปกรณ์, ภาษา/locale, สถานะการตั้งค่าส่งรายงานข้อขัดข้อง (เปิด/ปิด) และเวอร์ชัน schema ของฐานข้อมูล</li>
+      <li>(ทางเลือก) log ทางเทคนิคของแอปประมาณ 200 บรรทัดล่าสุด ซึ่งเป็นเพียงเหตุการณ์ระดับหยาบ (coarse events) เท่านั้น <strong>ไม่มีจำนวนเงิน โน้ต หรือข้อความแจ้งเตือนรวมอยู่</strong></li>
+      <li>(ทางเลือก) รูปภาพหนึ่งรูปที่คุณเลือกแนบเอง</li>
+    </ul>
+
+    <h2 id="th-10">10. การเปลี่ยนแปลงที่วางแผนไว้ (Planned Changes)</h2>
+    <p>เพื่อความโปร่งใส เราขอแจ้งล่วงหน้าถึงฟีเจอร์ที่อยู่ระหว่างการวางแผนและ <strong>ยังไม่เปิดใช้งานในปัจจุบัน</strong> เมื่อฟีเจอร์เหล่านี้พร้อมใช้งานจริง เราจะปรับปรุงนโยบายฉบับนี้ก่อนเปิดให้ใช้งาน:</p>
+    <ul>
+      <li><strong>สำรองข้อมูลบนคลาวด์ (Cloud Backup) สำหรับผู้ใช้แบบสมัครสมาชิก:</strong> วางแผนส่งข้อมูลสำรองแบบเข้ารหัสไปยัง Cloudflare R2 ผ่านเซิร์ฟเวอร์ของเราที่โฮสต์บน Render สำหรับผู้ใช้ที่สมัครสมาชิกเท่านั้น</li>
+      <li><strong>ระบบสมาชิกผ่าน Google Play Billing:</strong> วางแผนใช้ Google Play Billing ในการจัดการการสมัครสมาชิก ซึ่ง Google จะเป็นผู้ประมวลผลข้อมูลการชำระเงิน</li>
+    </ul>
+    <p><strong>เราจะปรับปรุงนโยบายนี้และแจ้งให้ทราบในแอปก่อนที่ฟีเจอร์ข้างต้นจะเปิดใช้งานจริง</strong></p>
+
+    <h2 id="th-11">11. เด็กและเยาวชน</h2>
+    <p>แอปนี้ไม่ได้มุ่งหมายให้ผู้ที่มีอายุต่ำกว่า 18 ปีใช้งาน และเราไม่เจตนาเก็บข้อมูลจากผู้เยาว์</p>
+
+    <h2 id="th-12">12. สิทธิ์ของคุณตาม พ.ร.บ. คุ้มครองข้อมูลส่วนบุคคล (PDPA)</h2>
+    <p>ภายใต้พระราชบัญญัติคุ้มครองข้อมูลส่วนบุคคล พ.ศ. 2562 (PDPA) คุณมีสิทธิ์ดังต่อไปนี้เกี่ยวกับข้อมูลส่วนบุคคลของคุณ:</p>
+    <ul>
+      <li><strong>สิทธิ์ขอเข้าถึงข้อมูล (Right to Access)</strong></li>
+      <li><strong>สิทธิ์ขอแก้ไขข้อมูลให้ถูกต้อง (Right to Rectification)</strong></li>
+      <li><strong>สิทธิ์ขอลบข้อมูล (Right to Erasure)</strong></li>
+      <li><strong>สิทธิ์ขอให้ระงับการใช้ข้อมูล (Right to Restriction of Processing)</strong></li>
+      <li><strong>สิทธิ์ในการโอนย้ายข้อมูล (Right to Data Portability)</strong></li>
+      <li><strong>สิทธิ์คัดค้านการประมวลผลข้อมูล (Right to Object)</strong></li>
+      <li><strong>สิทธิ์ถอนความยินยอม (Right to Withdraw Consent)</strong></li>
+      <li><strong>สิทธิ์ร้องเรียนต่อคณะกรรมการคุ้มครองข้อมูลส่วนบุคคล (PDPC)</strong> หากเห็นว่าสิทธิ์ของคุณถูกละเมิด</li>
+    </ul>
+    <p><strong>ในทางปฏิบัติ</strong> เนื่องจากข้อมูลของคุณทั้งหมดเก็บอยู่บนเครื่องของคุณเองเท่านั้น (เราไม่มีฐานข้อมูลกลาง) คุณสามารถใช้สิทธิ์เหล่านี้ได้โดยตรงด้วยตนเอง โดยไม่ต้องติดต่อเรา:</p>
+    <ul>
+      <li><strong>เข้าถึง/แก้ไข/โอนย้ายข้อมูล:</strong> เปิดแอปเพื่อดู แก้ไข หรือส่งออกข้อมูลของคุณได้โดยตรง</li>
+      <li><strong>ลบข้อมูล/ระงับการใช้/ถอนความยินยอม:</strong> ลบข้อมูลรายการภายในแอป ปิดสิทธิ์การเข้าถึงการแจ้งเตือน หรือถอนการติดตั้ง (uninstall) แอปเพื่อลบข้อมูลทั้งหมดออกจากเครื่อง</li>
+    </ul>
+    <p>ผู้ควบคุมข้อมูลส่วนบุคคล (Data Controller) สำหรับนโยบายฉบับนี้คือ <strong>Worawut Sriworaphot</strong> หากต้องการใช้สิทธิ์ข้างต้นหรือสอบถามเพิ่มเติม ติดต่อ: <a href="mailto:keptsatang.app@gmail.com">keptsatang.app@gmail.com</a></p>
+    <blockquote>เนื้อหาในหัวข้อนี้เป็นการสรุปเบื้องต้นเพื่อความโปร่งใส ไม่ใช่คำแนะนำทางกฎหมาย โปรดให้ที่ปรึกษากฎหมายตรวจสอบความครบถ้วนและความถูกต้องตามกฎหมาย PDPA ก่อนเผยแพร่จริง</blockquote>
+
+    <h2 id="th-13">13. ระยะเวลาการเก็บข้อมูล</h2>
+    <ul>
+      <li>ข้อมูลหลักจะถูกเก็บไว้ในเครื่องจนกว่าคุณจะลบเองหรือถอนการติดตั้งแอป</li>
+      <li>ร่างรายการจากการแจ้งเตือน (drafts) ที่ <strong>ยังไม่ได้ยืนยันหรือถูกละทิ้ง จะยังคงอยู่ใน inbox จนกว่าคุณจะดำเนินการ หรือจนกว่าจะครบ 30 วัน</strong> — <strong>ตั้งแต่เวอร์ชัน 0.20.0</strong> ร่างที่ไม่ยืนยันภายใน 30 วันจะย้ายไปถังขยะร่างอัตโนมัติ (กู้คืนได้จนกว่าถังขยะจะถูกล้างเมื่อขึ้นเดือนใหม่) นอกจากนี้ inbox ยังเก็บไว้สูงสุด 200 รายการล่าสุดเท่านั้น</li>
+      <li>ร่างรายการที่คุณ <strong>ละทิ้ง (discard)</strong> จะถูกย้ายไปยังถังขยะร่างรายการ (สูงสุด 200 รายการ เช่นเดียวกับ inbox) ซึ่งจะถูกล้างอัตโนมัติเมื่อขึ้นเดือนใหม่</li>
+      <li>รายการอื่นในถังขยะ (trash) ภายในแอป (เช่น รายการบัญชีที่ลบ) จะถูกล้างอัตโนมัติทุกเดือนเช่นกัน</li>
+      <li>ไฟล์สำรองข้อมูลอัตโนมัติรายสัปดาห์จะถูกเก็บไว้สูงสุด 8 ไฟล์ล่าสุด และไฟล์สำรองก่อนกู้คืนข้อมูล (pre-restore) สูงสุด 3 ไฟล์ ไฟล์เก่ากว่านั้นจะถูกลบทิ้งอัตโนมัติ</li>
+    </ul>
+
+    <h2 id="th-14">14. การเปลี่ยนแปลงนโยบายนี้</h2>
+    <p>หากมีการเปลี่ยนแปลงนโยบายนี้ เราจะระบุวันที่แก้ไขล่าสุดไว้ด้านบน และแจ้งลิงก์ไปยังนโยบายฉบับล่าสุดผ่านทางแอป</p>
+
+    <h2 id="th-15">15. ติดต่อเรา</h2>
+    <p>หากมีคำถามเกี่ยวกับนโยบายความเป็นส่วนตัวนี้ ติดต่อ: <a href="mailto:keptsatang.app@gmail.com">keptsatang.app@gmail.com</a></p>
+  </section>
+
+  <hr>
+
+  <section lang="en" id="en-top">
+    <p class="jump"><a href="#top">ภาษาไทยด้านบน ↑</a></p>
+    <p class="section-lang-label">English</p>
+
+    <h2 id="en-1">1. Introduction</h2>
+    <p>The <strong>Kept Satang</strong> application (package <code>com.worawut.keptsatang</code>) is developed by Worawut Sriworaphot (we, us). This Privacy Policy explains how the app collects, uses, and handles your data.</p>
+    <p>For questions about this policy, contact us at: <a href="mailto:keptsatang.app@gmail.com">keptsatang.app@gmail.com</a></p>
+    <p>Effective Date: 8 September 2026</p>
+
+    <h2 id="en-2">2. Core Principle: Your Data Stays On Your Device</h2>
+    <p>Today, Kept Satang has <strong>no user accounts, no login, and no server of ours that receives your data</strong>. All data you record in the app, including income, expenses, categories, budgets, receipt photos, and settings, is stored <strong>only on your device</strong>, through:</p>
+    <ul>
+      <li>A Room (SQLite) database stored in internal app storage, protected by the Android app sandbox so other apps cannot access it</li>
+      <li>Preferences stored via DataStore, also in internal app storage</li>
+      <li>Receipt photos stored in internal app storage</li>
+      <li>A weekly automatic backup file (see section 3.1) stored in an app-specific folder on external storage. This is separate from the internal app storage described above. That folder is visible through a file manager or a USB connection, but ordinary apps cannot access it without permission, and it is removed when the app is uninstalled</li>
+    </ul>
+    <p>We do not transmit your financial data to any server of ours over the internet. <strong>From version 0.21.0, the app has the INTERNET permission solely to send crash reports to Google Firebase Crashlytics — no financial data, notification text, or other personal data is transmitted, and there is no behavioral analytics SDK</strong> (see section 8 for details). Before version 0.21.0, the app had no INTERNET permission at all.</p>
+
+    <h2 id="en-3">3. Backups</h2>
+    <h3 id="en-3-1">3.1 Weekly Automatic Local Backup</h3>
+    <p>The app automatically creates a backup zip file, containing the ledger data as JSON plus receipt photos, <strong>once a week without any action from you</strong>. These files are stored in an app-specific folder on external storage, at <code>Android/data/com.worawut.keptsatang/files/backups</code>, which is separate from the internal app storage described in section 2 that holds the main database and settings. The folder is visible through a file manager or when the device is connected to a computer over USB, but ordinary apps cannot access it without permission, and it is removed when the app is uninstalled.</p>
+    <p>The app keeps only the <strong>8 most recent</strong> automatic backup files (older ones are deleted automatically), and keeps up to the <strong>3 most recent pre-restore backups</strong> (<code>pre-restore-*.zip</code>), one of which is created each time you restore data, to protect against data loss during a restore.</p>
+    <p>Because these backup files live in external storage, <strong>before version 0.20.0</strong> they also fall <strong>within the scope of Android Auto Backup</strong> (see section 3.2) if you have that feature enabled. <strong>From version 0.20.0 onward, the app excludes this entire weekly backup folder (<code>Android/data/com.worawut.keptsatang/files/backups</code>) from Android Auto Backup</strong>, so the combined data stays within the size quota Auto Backup allows. The main database and receipt photos (internal storage, see section 2) are still backed up through Auto Backup as before.</p>
+
+    <h3 id="en-3-2">3.2 Android Auto Backup</h3>
+    <p>The app enables the Android Auto Backup feature (<code>allowBackup=true</code>), a standard operating system mechanism controlled by Google, <strong>not our own server</strong>. When enabled, Android automatically copies some app data (the main database and receipt photos in internal storage, always; <strong>before version 0.20.0</strong> also the weekly backup files described in section 3.1, since they live in external storage; <strong>from version 0.20.0 onward</strong> the weekly backup folder is excluded from Auto Backup to stay within its size quota) to the private Google Drive of the Google account linked to your device, encrypted according to Google standards.</p>
+    <p><strong>Before version 0.20.0 (historical):</strong> data included in Android Auto Backup <strong>includes the salted PIN hash (stored in the <code>kept_security</code> DataStore) and bank-alert draft files</strong>, because no exclusion rule has been configured for them yet.</p>
+    <p><strong>From version 0.20.0 onward:</strong> the app excludes the PIN data (salted PIN hash in the <code>kept_security</code> DataStore) and bank-alert draft files from Android Auto Backup. <strong>However, backups that Auto Backup created before version 0.20.0 may still contain the PIN data and draft files until they are overwritten by a newer backup created after you update to 0.20.0, or until you delete this app backup from your own Google Account settings.</strong></p>
+    <p>The app itself never transmits your notification text or financial data to any server. A copy of your data can leave your device only through one of the following channels: (a) Android Auto Backup, which copies data to your own private Google Drive and which you control through your Google Account settings on the device, and which (from version 0.20.0) no longer includes the PIN data or bank-alert draft files; (b) Android device-to-device transfer when you set up a new phone, a mechanism built into Android itself; (c) an export you initiate yourself through the Android Storage Access Framework to a location you choose (see section 5); or (d) <strong>from version 0.21.0</strong>, a crash report the app sends automatically to Google Firebase Crashlytics when it crashes, which does not include your notification text or financial data (see section 8). The app itself never transmits data through any other channel besides the ones listed above.</p>
+    <p>You can disable this backup from your Google Account settings on the device (Settings &gt; Google &gt; Backup), or disable backup for this specific app depending on your Android version.</p>
+
+    <h2 id="en-4">4. Notification Access</h2>
+    <p>Reading bank notifications is a core feature of the app that the user opts in to. It helps you automatically capture money movement entries from notifications sent by banking or finance apps. It works as follows:</p>
+    <ul>
+      <li>Once you grant this app the Android Notification Access permission (an operating-system-level permission, not one limited to specific apps), Android delivers notifications <strong>from all apps on your device</strong> to this app for inspection, not only banking apps</li>
+      <li>The app processes all received notifications <strong>on your device only</strong>, and <strong>keeps only the notifications that its parser reads as a money movement</strong> (a clear amount and direction, incoming or outgoing). Any other notification is discarded immediately without being stored</li>
+      <li>By default, the app <strong>reads and attempts to parse notifications from every app that has not been classified yet</strong> (auto-detect). You can:
+        <ul>
+          <li>Add an app to the <strong>block list</strong> so the app no longer processes its notifications</li>
+          <li>Add an app to the <strong>allow list</strong>, which also happens automatically the first time you confirm a draft from that app</li>
+          <li>Turn on <strong>strict mode</strong>, so the app reads and processes notifications only from apps on the allow list, automatically ignoring every other app</li>
+        </ul>
+      </li>
+      <li>Parsed data is stored as a <strong>draft</strong> on your device, pending your confirmation or edit (see section 4.1 for details)</li>
+      <li>You can revoke this permission at any time via Android Settings &gt; Apps &gt; Special App Access &gt; Notification Access, which immediately stops the app from receiving any further notifications</li>
+      <li>The app itself never transmits notification text off your device (see section 3.2 for the one related exception, Android Auto Backup)</li>
+    </ul>
+
+    <h3 id="en-4-1">4.1 What A Draft Contains, And How Long It Is Kept</h3>
+    <ul>
+      <li>Each draft stores the notification <strong>title and text exactly as received</strong>, together with the parsed amount, direction, and date, in a local file (<code>bank_inbox.json</code>)</li>
+      <li>A draft is kept <strong>until you confirm it</strong> (at which point it is deleted) <strong>or until you choose to discard it</strong></li>
+      <li>Drafts you <strong>discard</strong> move to a <strong>draft trash</strong>, which is cleared automatically when a new month starts. The draft trash also keeps only <strong>up to 200 items</strong>, the same limit as the inbox; older ones are dropped automatically once that limit is exceeded</li>
+      <li>Drafts that are <strong>neither confirmed nor discarded stay in the inbox until you act on them, or until 30 days pass</strong>. <strong>From version 0.20.0</strong>, drafts not confirmed within 30 days are moved to the draft trash automatically (recoverable until the trash is cleared when a new month starts). The inbox also keeps only the <strong>200 most recent drafts</strong>; older ones are dropped automatically once a new alert arrives and that limit is exceeded</li>
+    </ul>
+
+    <h2 id="en-5">5. Optional, User-Initiated Features</h2>
+    <ul>
+      <li><strong>Export:</strong> You can export your data as a backup zip, CSV, or PDF file to a location you choose, using the Android Storage Access Framework</li>
+      <li><strong>Import:</strong> You can import data from a CSV file</li>
+      <li><strong>Receipt Photos:</strong> You can take a photo or select one from your gallery to attach to an entry. These photos are stored locally only.</li>
+      <li><strong>Local Reminders:</strong> If enabled, the app sends notifications generated on your device, such as credit card due-date reminders or budget-alert notifications, which require your POST_NOTIFICATIONS permission. These notifications are generated and processed entirely on your device, with no data sent elsewhere.</li>
+    </ul>
+    <p>The export, import, and receipt-photo actions above occur only when you initiate them. We do not perform them automatically or send data elsewhere without your action. (See section 3.1 for the weekly automatic backup, which the app performs without your action, but which also stays only on your device.)</p>
+
+    <h2 id="en-6">6. Security</h2>
+    <ul>
+      <li>The SQLite database and preference files used by the app are <strong>not encrypted at the file level</strong>. Protection relies on the Android app sandbox, which prevents other apps from directly accessing these files, together with your device encryption and screen lock.</li>
+      <li>Your PIN is stored as a <strong>salted SHA-256 hash</strong>, not as plain text. We cannot reverse this to recover your actual PIN.</li>
+      <li>Biometric unlock (fingerprint or face) is supported through the standard Android BiometricPrompt system, processed by the operating system, not by our app.</li>
+      <li><strong>Home-Screen Widget:</strong> if you add the app widget to your home screen, it displays your monthly totals and balance <strong>without requiring your PIN</strong>. Anyone who can see your home screen, including a locked one if your device is set to show widgets on the lock screen, can see this summary.</li>
+    </ul>
+
+    <h2 id="en-7">7. Advertising And Analytics</h2>
+    <p>The app has <strong>no advertising and no user behavior analytics</strong>. From version 0.21.0, the app includes one third-party SDK, <strong>Google Firebase Crashlytics</strong>, used solely for crash reporting, not for advertising or user behavior analytics — see section 8 for details.</p>
+
+    <h2 id="en-8">8. Crash Reporting (Crashlytics)</h2>
+    <p>From version 0.21.0, the app uses <strong>Google Firebase Crashlytics</strong> to help us learn about and fix app crashes faster.</p>
+    <ul>
+      <li><strong>When the app crashes</strong>, the following technical data is sent to Firebase Crashlytics automatically: the error stack trace, app version and versionCode, device manufacturer and model, Android version, device locale, an anonymous Firebase installation ID, and the crash time</li>
+      <li><strong>What is not sent:</strong> no financial data (amounts, ledger entries, budgets) and no notification text is included in a crash report</li>
+      <li><strong>On by default.</strong> You can turn this off in Settings &gt; Privacy &gt; <strong>"Send crash reports automatically"</strong>. Turning it off takes effect immediately, and nothing is sent before the app reads this setting at startup</li>
+      <li>Data sent is processed by <strong>Google Firebase</strong> under Google terms of service</li>
+      <li><strong>Retention:</strong> Retention follows Google Firebase Crashlytics policy, which currently keeps individual crash reports for approximately 90 days (aggregate statistics may be kept longer) and may change as Google determines.</li>
+      <li>This feature involves <strong>no advertising</strong> and is not a user-behavior analytics system (it is not Firebase Analytics)</li>
+    </ul>
+
+    <h2 id="en-9">9. Reporting Issues / Feedback</h2>
+    <p>The app has a screen for reporting issues or sending feedback, which works by <strong>opening your own email app with a message pre-composed</strong>, addressed to <code>keptsatang.app@gmail.com</code> — you see the entire draft email and send it yourself. <strong>The app never sends anything automatically.</strong></p>
+    <p>The draft email contains:</p>
+    <ul>
+      <li>The text you type</li>
+      <li>Basic device info: app version, Android version, device model, locale, your crash-report setting (on or off), and the database schema version</li>
+      <li>(Optional) roughly the last 200 lines of the app technical log, which contains only coarse events — <strong>no amounts, notes, or notification text are included</strong></li>
+      <li>(Optional) one image you choose to attach</li>
+    </ul>
+
+    <h2 id="en-10">10. Planned Changes</h2>
+    <p>For transparency, we disclose features currently under consideration that are <strong>not active today</strong>. Before any of these ship, we will update this policy:</p>
+    <ul>
+      <li><strong>Cloud Backup for subscribers:</strong> planned encrypted backup data sent to Cloudflare R2 through our own server hosted on Render, available only to paid subscribers</li>
+      <li><strong>Subscriptions via Google Play Billing:</strong> planned use of Google Play Billing to manage subscriptions, with Google processing payment data</li>
+    </ul>
+    <p><strong>We will update this policy and notify you in the app before these features become active.</strong></p>
+
+    <h2 id="en-11">11. Children</h2>
+    <p>This app is not directed at persons under 18, and we do not knowingly collect data from minors.</p>
+
+    <h2 id="en-12">12. Your Rights Under the Thai Personal Data Protection Act (PDPA)</h2>
+    <p>Under the Personal Data Protection Act B.E. 2562 (PDPA), you have the following rights regarding your personal data:</p>
+    <ul>
+      <li><strong>Right to Access</strong></li>
+      <li><strong>Right to Rectification</strong></li>
+      <li><strong>Right to Erasure</strong></li>
+      <li><strong>Right to Restriction of Processing</strong></li>
+      <li><strong>Right to Data Portability</strong></li>
+      <li><strong>Right to Object</strong></li>
+      <li><strong>Right to Withdraw Consent</strong></li>
+      <li><strong>Right to Complain to the Personal Data Protection Committee (PDPC)</strong> if you believe your rights have been violated</li>
+    </ul>
+    <p><strong>In practice</strong>, because all of your data is stored only on your own device and we keep no central database, you can exercise these rights directly, without contacting us:</p>
+    <ul>
+      <li><strong>Access, rectification, and portability:</strong> open the app to view, edit, or export your data directly</li>
+      <li><strong>Erasure, restriction, and withdrawal of consent:</strong> delete entries within the app, turn off notification access, or uninstall the app to remove all data from your device</li>
+    </ul>
+    <p>The data controller for this policy is <strong>Worawut Sriworaphot</strong>. To exercise the rights above or ask further questions, contact: <a href="mailto:keptsatang.app@gmail.com">keptsatang.app@gmail.com</a></p>
+    <blockquote>This section is a preliminary summary provided for transparency and is not legal advice. Please have legal counsel review this section for completeness and accuracy under the PDPA before publishing.</blockquote>
+
+    <h2 id="en-13">13. Data Retention</h2>
+    <ul>
+      <li>Core data is retained on your device until you delete it or uninstall the app</li>
+      <li>Notification drafts that are <strong>neither confirmed nor discarded stay in the inbox until you act on them, or until 30 days pass</strong>. <strong>From version 0.20.0</strong>, drafts not confirmed within 30 days are moved to the draft trash automatically (recoverable until the trash is cleared when a new month starts). The inbox also keeps only the 200 most recent drafts</li>
+      <li>Drafts you <strong>discard</strong> move to a draft trash (up to 200 items, the same limit as the inbox), which is cleared automatically when a new month starts</li>
+      <li>Other items in the in-app trash, such as deleted ledger entries, are also purged automatically every month</li>
+      <li>The weekly automatic backup keeps only the 8 most recent files, plus up to the 3 most recent pre-restore backups; older files are deleted automatically</li>
+    </ul>
+
+    <h2 id="en-14">14. Changes To This Policy</h2>
+    <p>If this policy changes, we will update the effective date above and provide a link to the latest version within the app.</p>
+
+    <h2 id="en-15">15. Contact Us</h2>
+    <p>For questions about this Privacy Policy, contact: <a href="mailto:keptsatang.app@gmail.com">keptsatang.app@gmail.com</a></p>
+  </section>
+</main>
+
+<footer>
+  <p><a href="index.html">เก็บสตางค์ (Kept Satang)</a> · <a href="terms.html">ข้อกำหนดการใช้งาน</a> · <a href="mailto:keptsatang.app@gmail.com">keptsatang.app@gmail.com</a></p>
+</footer>
+</body>
+</html>

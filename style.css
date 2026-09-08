@@ -1,0 +1,197 @@
+/* เก็บสตางค์ (Kept Satang) — สไตล์เว็บสถิตสำหรับหน้านโยบาย/ข้อกำหนด
+   ไม่มี JavaScript, ไม่มี font/CDN ภายนอก, ไม่มี tracking ใด ๆ */
+
+:root {
+  --bg: #ffffff;
+  --fg: #1a1a1a;
+  --muted: #555555;
+  --link: #0a5fb4;
+  --link-visited: #6b3fa0;
+  --border: #dddddd;
+  --code-bg: #f2f2f2;
+  --toc-bg: #f7f7f7;
+  --accent: #0a5fb4;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #14171a;
+    --fg: #e8e8e8;
+    --muted: #a8a8a8;
+    --link: #7ab8ff;
+    --link-visited: #c8a6ff;
+    --border: #33383d;
+    --code-bg: #22262a;
+    --toc-bg: #1d2124;
+    --accent: #7ab8ff;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  color-scheme: light dark;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: system-ui, "Segoe UI", Roboto, "Noto Sans Thai", sans-serif;
+  line-height: 1.7;
+  font-size: 17px;
+}
+
+main {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2rem 1.25rem 4rem;
+}
+
+h1 {
+  font-size: 1.6rem;
+  line-height: 1.4;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  margin-top: 2.5rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid var(--border);
+}
+
+h3 {
+  font-size: 1.05rem;
+  margin-top: 1.75rem;
+}
+
+p, li {
+  margin: 0.75em 0;
+}
+
+ul, ol {
+  padding-left: 1.4em;
+}
+
+li > ul,
+li > ol {
+  margin: 0.4em 0;
+}
+
+a {
+  color: var(--link);
+}
+
+a:visited {
+  color: var(--link-visited);
+}
+
+code {
+  background: var(--code-bg);
+  padding: 0.1em 0.35em;
+  border-radius: 4px;
+  font-size: 0.92em;
+}
+
+blockquote {
+  margin: 1em 0;
+  padding: 0.6em 1em;
+  border-left: 4px solid var(--accent);
+  background: var(--toc-bg);
+  color: var(--muted);
+}
+
+hr {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 2.5rem 0;
+}
+
+.site-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--fg);
+}
+
+.top-nav {
+  border-bottom: 1px solid var(--border);
+}
+
+.top-nav-inner {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 1rem 1.25rem;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.top-nav a {
+  text-decoration: none;
+}
+
+.top-nav nav a {
+  margin-left: 1rem;
+  color: var(--muted);
+}
+
+.top-nav nav a:first-child {
+  margin-left: 0;
+}
+
+.jump {
+  font-size: 0.95rem;
+}
+
+.section-lang-label {
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-size: 0.8rem;
+  color: var(--muted);
+  margin: 0.25rem 0 0;
+}
+
+.toc {
+  background: var(--toc-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1rem 1.25rem;
+  margin: 1.5rem 0 2.5rem;
+}
+
+.toc-label {
+  font-weight: 700;
+  margin: 0 0 0.5rem;
+}
+
+.toc ol {
+  margin: 0;
+  columns: 1;
+  list-style: none;
+  padding-left: 0;
+}
+
+.toc li {
+  margin: 0.3em 0;
+}
+
+footer {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 1.5rem 1.25rem 3rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+  border-top: 1px solid var(--border);
+}
+
+footer a {
+  color: var(--muted);
+}
